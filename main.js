@@ -20,5 +20,5 @@ function createMultiplicationTableByRange (start, end) {
 	}
 	return result;
 }
-console.log(createMultiplicationTableByRange(2,4));
+
 module.exports = createMultiplicationTableByRange;
