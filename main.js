@@ -1,6 +1,5 @@
 function checkValid (start, end) {
-	return;
-	(start >= 1) &&
+	return (start >= 1) &&
         (end >= 1) &&
         (start <= 1000) &&
         (end <= 1000) && 
