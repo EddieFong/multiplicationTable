@@ -13,6 +13,9 @@ it ("10, 1 should return null string", () => {
 });
 
 it ("2,4 case", () => {
-	expect(createMultiplicationTableByRange(2, 4)).toBe("2*2=4 \n2*3=6 3*3=9 \n2*4=8 3*4=12 4*4=16 \n");
+	expect(createMultiplicationTableByRange(2, 4)).toBe("2*2=4  \n2*3=6  3*3=9  \n2*4=8  3*4=12 4*4=16 \n");
 });
 
+it ("2,5 case", () => {
+	expect(createMultiplicationTableByRange(2, 5)).toBe("2*2=4  \n2*3=6  3*3=9  \n2*4=8  3*4=12 4*4=16 \n2*5=10 3*5=15 4*5=20 5*5=25 \n");
+});
