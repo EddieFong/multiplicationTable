@@ -7,7 +7,7 @@ function checkValid (start, end) {
 }
 
 function createMultiplicationTableByRange (start, end) {
-	if (checkValid(start,end) === false) return "";
+	if (checkValid(start,end) === false) return null;
 	let result = "";
 	let i,j;
 	let width = (end*end).toString().length + end.toString().length + 1;

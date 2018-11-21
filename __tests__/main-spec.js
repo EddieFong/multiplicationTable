@@ -1,19 +1,19 @@
 const createMultiplicationTableByRange = require("../main");
 
 it ("given -1, -1 as input, when called the function, should return null string", () => {
-	expect(createMultiplicationTableByRange(-1,-1)).toBe("");
+	expect(createMultiplicationTableByRange(-1,-1)).toBe(null);
 });
 
 it ("given 2, 6000 as input, when called the function, should return null string", () => {
-	expect(createMultiplicationTableByRange(2,6000)).toBe("");
+	expect(createMultiplicationTableByRange(2,6000)).toBe(null);
 });
 
 it ("given 5000, 6000 as input, when called the function, should return null string", () => {
-	expect(createMultiplicationTableByRange(5000,6000)).toBe("");
+	expect(createMultiplicationTableByRange(5000,6000)).toBe(null);
 });
 
 it ("given end > start as input, when called the function, should return null string", () => {
-	expect(createMultiplicationTableByRange(10,1)).toBe("");
+	expect(createMultiplicationTableByRange(10,1)).toBe(null);
 });
 
 it ("2,4 case", () => {
